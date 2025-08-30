@@ -1,0 +1,73 @@
+{
+	"info": {
+		"_postman_id": "f6ca6d53-a0e3-446c-841c-8b09081067b8",
+		"name": "Face_enhancer",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "enhance_face",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {}
+			},
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "x-rapidapi-host",
+						"value": "ai-face-restore-enhance-api.p.rapidapi.com",
+						"type": "default"
+					},
+					{
+						"key": "x-rapidapi-key",
+						"value": "",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "image",
+							"type": "file",
+							"src": []
+						},
+						{
+							"key": "image",
+							"value": "",
+							"description": "base64 format",
+							"type": "text",
+							"disabled": true
+						}
+					],
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://ai-face-restore-enhance-api.p.rapidapi.com/api/v1/face_enhancer",
+					"protocol": "https",
+					"host": [
+						"ai-face-restore-enhance-api",
+						"p",
+						"rapidapi",
+						"com"
+					],
+					"path": [
+						"api",
+						"v1",
+						"face_enhancer"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
