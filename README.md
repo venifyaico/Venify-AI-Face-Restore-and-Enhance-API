@@ -10,7 +10,7 @@ The Face Restore & Enhance API leverages cutting-edge deep learning to automatic
 
 Whether you’re upgrading user profile pictures, restoring historical images, improving identity verification photos, or building next-gen photo enhancement apps, this API delivers fast, reliable, and scalable face restoration.
 
-## Key features include:
+## Key features:
 
 - Supports multiple faces in one image
 
